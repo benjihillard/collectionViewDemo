@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B126361F25268FC40095F37D /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B126361E25268FC40095F37D /* AlbumCell.swift */; };
+		B12636212526932B0095F37D /* pics in Resources */ = {isa = PBXBuildFile; fileRef = B12636202526932B0095F37D /* pics */; };
 		B1A72AA425268C3D001FB445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A72AA325268C3D001FB445 /* AppDelegate.swift */; };
 		B1A72AA625268C3D001FB445 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A72AA525268C3D001FB445 /* SceneDelegate.swift */; };
 		B1A72AA825268C3D001FB445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A72AA725268C3D001FB445 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B126361E25268FC40095F37D /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		B12636202526932B0095F37D /* pics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pics; path = ../../pics; sourceTree = "<group>"; };
 		B1A72AA025268C3D001FB445 /* collectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A72AA325268C3D001FB445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1A72AA525268C3D001FB445 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				B1A72AAC25268C3F001FB445 /* Assets.xcassets */,
 				B1A72AAE25268C3F001FB445 /* LaunchScreen.storyboard */,
 				B1A72AB125268C3F001FB445 /* Info.plist */,
+				B126361E25268FC40095F37D /* AlbumCell.swift */,
+				B12636202526932B0095F37D /* pics */,
 			);
 			path = collectionViewDemo;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				B1A72AB025268C3F001FB445 /* LaunchScreen.storyboard in Resources */,
 				B1A72AAD25268C3F001FB445 /* Assets.xcassets in Resources */,
 				B1A72AAB25268C3D001FB445 /* Main.storyboard in Resources */,
+				B12636212526932B0095F37D /* pics in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +269,7 @@
 				B1A72AA825268C3D001FB445 /* ViewController.swift in Sources */,
 				B1A72AA425268C3D001FB445 /* AppDelegate.swift in Sources */,
 				B1A72AA625268C3D001FB445 /* SceneDelegate.swift in Sources */,
+				B126361F25268FC40095F37D /* AlbumCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
